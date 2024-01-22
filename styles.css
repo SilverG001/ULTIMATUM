@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Metal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(images/server\ room.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 1.3em;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    padding-bottom: 30px;
+}
+
+.company-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: ghostwhite;
+}
+
+.company-name-large {
+    font-size: 8em;
+}
+
+.script-section {
+    margin: 1.5em;
+    font-size: 1.25em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: ghostwhite;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-company-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: transparent;
+    color: ghostwhite;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: left;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.offer-row{
+    border-bottom: 1px solid ghostwhite;
+    padding: 1em;
+    margin: 1em;
+}
+
+.offer-row:last-child{
+    border-bottom:none;
+}
+
+.offer-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.offer-name{
+    color: #d4d1d1;
+    font-weight: bold;
+    width: 30%;
+    font-size: 2em;
+}
+
+.offer-script{
+    width: 30%;
+    font-size: 1.5em;
+}
+
+.offer-btn{
+    max-width: 25%;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    color: #d4d1d1;
+    border: 1px solid #d4d1d1;
+    padding: 12px 34px;
+    font-size: 1.5em;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.offer-btn:hover{
+    border: 1px solid ghostwhite;
+    background: ghostwhite;
+    color: #162938;
+    transition: .5s;
+}
